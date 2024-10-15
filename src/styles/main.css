@@ -311,4 +311,24 @@ body{
         right: 1rem; /* Mantém o botão à direita */
     }
 }
+/* Estilos para telas médias */
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+    }
 
+    .left-section {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .right-section {
+        padding: 20px;
+    }
+}
