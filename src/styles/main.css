@@ -170,42 +170,50 @@ body{
 }
 
 @media screen and (max-width: 1330px) {
-    .form-img{
+    .form-img {
         display: none;
     }
 
-    .container{
-        width: 50%;
+    .container {
+        width: 80%;  /* Mais espaço para tablets */
+        height: auto;
     }
 
-    .form{
-      width: 100%;  
+    .form {
+        width: 100%;  
     }
 }
 
-@media screen and (max-width: 1064px){
-    .container{
+@media screen and (max-width: 1064px) {
+    .container {
         width: 90%;
         height: auto;
-    }
-    
-    .input-group{
         flex-direction: column;
-        overflow-y: scroll;
-        flex-wrap: nowrap;
-        max-width: 10rem ;
-        padding-right: 5rem;
     }
 
-    .gender-inputs{
-        margin-top: 2rem;
+    .input-group {
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow-y: visible;  /* Remover o scroll */
+        padding-right: 0;  /* Remover o padding */
+        max-width: 100%;  /* Garantir que use toda a largura */
     }
 
-    .gender-group{
-       flex-direction: column;
+    .gender-inputs {
+        margin-top: 1.5rem;
     }
 
-    .gender-input{
+    .gender-group {
+        flex-direction: column;
+        align-items: flex-start;  /* Melhor alinhamento no celular */
+    }
+
+    .gender-input {
         margin-top: 0.5rem;
+    }
+
+    .continue-button button {
+        width: 100%;  /* Botão ocupa toda a largura */
+        margin-top: 1.5rem;
     }
 }
