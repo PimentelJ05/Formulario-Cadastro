@@ -248,6 +248,37 @@ body{
     }
 }
 
+@media screen and (max-width: 1330px) {
+    .form-img {
+        display: none;
+    }
+
+    .container {
+        width: 80%;  
+        height: auto;
+    }
+
+    .form {
+        width: 100%;  
+        text-align: center; /* Centraliza o conteúdo */
+        position: relative; /* Permite posicionamento absoluto dentro */
+    }
+
+    .login-button {
+        position: absolute;
+        top: 1rem;  /* Ajusta a posição do botão "Entrar" */
+        right: 1rem; /* Ajusta a posição à direita */
+        margin: 0; /* Remove margens que possam afetar */
+    }
+
+    .continue-button {
+        display: flex;
+        justify-content: center;
+        width: 100%; /* Alinha e expande o botão "Continuar" */
+        margin-top: 1.5rem;
+    }
+}
+
 @media screen and (max-width: 1064px) {
     .container {
         width: 90%;
@@ -267,16 +298,17 @@ body{
         align-items: flex-start;
     }
 
-    .continue-button button,
-    .login-button button {
-        width: 100%; 
+    .continue-button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
         margin-top: 1.5rem;
     }
 
-    .login-button, 
-    .continue-button {
-        display: flex;
-        justify-content: center;
+    .login-button {
+        position: absolute;
+        top: 1rem;  /* Ajusta a posição no topo para o botão "Entrar" */
+        right: 1rem; /* Mantém o botão à direita */
     }
 }
 
