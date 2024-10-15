@@ -40,7 +40,7 @@ This registration form allows users to input their personal information, such as
 
 - On smartphones: The form becomes scrollable for an optimal experience.
   
-##💌 Credits
+## 💌 Credits
 Special thanks to:
 
 = Google Fonts for Montserrat.
