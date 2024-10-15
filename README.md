@@ -23,7 +23,7 @@ This registration form allows users to input their personal information, such as
 ## 🖥 How to Use
 - Visit the site: [Registration Form](https://sitecadastro.netlify.app/)
   
-- Fill in your details:
+- Fill in your details
   
 - First name, last name, email, and phone number.
 
