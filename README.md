@@ -43,8 +43,8 @@ This registration form allows users to input their personal information, such as
 ## 💌 Credits
 Special thanks to:
 
-= Google Fonts for Montserrat.
+- Google Fonts for Montserrat.
 
-= Undraw for the illustration.
+- Undraw for the illustration.
 
 - Netlify for hosting the project.
